@@ -53,5 +53,6 @@ model4.fit(x_train,y_train,
           verbose=1,
           validation_data=(x_test, y_test))
 
+
 loss, accuracy = model4.evaluate(x_test, y_test)
 print('loss: ', loss, '\naccuracy: ', accuracy)
